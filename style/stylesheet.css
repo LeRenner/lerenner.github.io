@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Cascadia Code PL';
+    src: url('CascadiaCodePL.woff2') format('woff2'),
+        url('CascadiaCodePL.woff') format('woff'),
+        url('CascadiaCodePL.ttf') format('truetype');
+    font-style: normal;
+    font-display: block;
+}
+
+p {
+  font-family: 'Cascadia Code PL';
+  font-weight: 380;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
