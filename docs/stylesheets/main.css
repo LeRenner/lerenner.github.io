@@ -7,12 +7,37 @@
     font-display: block;
 }
 
-p {
+* {
   font-family: 'Cascadia Code PL';
+  color: white;
+}
+
+pre{
+  font-size: 85%;
+}
+
+p {
+  font-size: 120%;
   font-weight: 380;
   color: white;
 }
 
+h1 {
+  font-size: 200%;
+  color: white;
+  font-weight: 300;
+}
+
 body {
-  background-color: black;
+  background-color: #000;
+}
+
+.icons {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.icon{
+  display: inline-block;
+  padding: 20px;
 }
