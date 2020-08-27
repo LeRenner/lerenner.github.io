@@ -42,6 +42,14 @@ body {
   cursor: pointer;
 }
 
+#contact {
+  text-decoration: underline;
+}
+
+#contact:hover {
+  color: #ccc;
+}
+
 .icons {
   margin: 50px auto;
   text-align: center;
