@@ -58,15 +58,20 @@ window.onclick = function(event) {
   }
 }
 
-if (screen.width <= 699) {
+if (screen.width <= 699) { //resize a buncha stuff
   document.getElementById("deskBreaker1").style.display = "none";
   document.getElementById("deskBreaker2").style.display = "none";
   logo.style.fontSize = "8px";
-  document.getElementById("img1").height = "20";
-  document.getElementById("img2").height = "20";
-  document.getElementById("img3").height = "20";
+  document.getElementById("img1").height = "54";
+  document.getElementById("img2").height = "54";
+  document.getElementById("img3").height = "54";
   document.getElementById("icon1").style.padding = "10px";
   document.getElementById("icon2").style.padding = "10px";
   document.getElementById("icon3").style.padding = "10px";
+  document.getElementById("modalContent1").style.width = "80%";
+  document.getElementById("modalContent2").style.width = "80%";
+  copyTelegram.style.display = "none";
+  copyDiscord.style.display = "none";
+  copyMail.style.display = "none";
 }
 
