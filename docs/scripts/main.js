@@ -9,6 +9,7 @@ var copyTelegram = document.getElementById("copyTelegram")
 var copyDiscord = document.getElementById("copyDiscord")
 var db1 = document.getElementById("deskBreaker1");
 var db2 = document.getElementById("deskBreaker2");
+var logo = document.getElementById("logo")
 console.log("batatas")
 
 copyMail.onclick = function() {
@@ -63,5 +64,6 @@ window.onclick = function(event) {
 if (screen.width <= 699) {
   db1.style.display = "none";
   db2.style.display = "none";
+  logo.style.fontSize = "60%";
 }
 
