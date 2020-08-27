@@ -13,7 +13,7 @@
 }
 
 pre{
-  font-size: 85%;
+  font-size: 92%;
 }
 
 p {
@@ -55,6 +55,10 @@ body {
   cursor:pointer;
   display: inline-block;
   margin: 10px;
+}
+
+#mobileArt {
+  display: none;
 }
 
 html, body {
