@@ -1,12 +1,16 @@
 var modal = document.getElementById("contactBox");
+var modal2 = document.getElementById("whoamiBox");
 var contact = document.getElementById("contact");
+var whoami = document.getElementById("whoami");
 var span = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close")[1];
 var copyMail = document.getElementById("copyMail")
 var copyTelegram = document.getElementById("copyTelegram")
 var copyDiscord = document.getElementById("copyDiscord")
+console.log("batatas")
 
 copyMail.onclick = function() {
-  var lalala = navigator.clipboard.writeText("j@lerenner.dev")
+  var copy = navigator.clipboard.writeText("j@lerenner.dev")
   copyMail.innerHTML = "Copied!";
   setTimeout(function(){
     copyMail.innerHTML = "Copy"
@@ -14,7 +18,7 @@ copyMail.onclick = function() {
 }
 
 copyTelegram.onclick = function() {
-  var lalala = navigator.clipboard.writeText("LeRenner")
+  var copy = navigator.clipboard.writeText("LeRenner")
   copyTelegram.innerHTML = "Copied!";
   setTimeout(function(){
     copyTelegram.innerHTML = "Copy"
@@ -22,7 +26,7 @@ copyTelegram.onclick = function() {
 }
 
 copyDiscord.onclick = function() {
-  var lalala = navigator.clipboard.writeText("LojasRenner#3419")
+  var copy = navigator.clipboard.writeText("LojasRenner#3419")
   copyDiscord.innerHTML = "Copied!";
   setTimeout(function(){
     copyDiscord.innerHTML = "Copy"
@@ -33,12 +37,23 @@ contact.onclick = function() {
   modal.style.display = "block";
 }
 
+whoami.onclick = function() {
+  modal2.style.display = "block";
+}
+
 span.onclick = function() {
   modal.style.display = "none";
+}
+
+span2.onclick = function() {
+  modal2.style.display = "none";
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+  else if (event.target == modal2) {
+    modal2.style.display = "none";
   }
 }
