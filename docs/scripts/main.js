@@ -7,11 +7,6 @@ var span2 = document.getElementsByClassName("close")[1];
 var copyMail = document.getElementById("copyMail");
 var copyTelegram = document.getElementById("copyTelegram");
 var copyDiscord = document.getElementById("copyDiscord");
-var db1 = document.getElementById("deskBreaker1");
-var db2 = document.getElementById("deskBreaker2");
-var img1 = document.getElementById("img1");
-var img2 = document.getElementById("img2");
-var img3 = document.getElementById("img3");
 console.log("batatas");
 
 copyMail.onclick = function() {
@@ -64,11 +59,14 @@ window.onclick = function(event) {
 }
 
 if (screen.width <= 699) {
-  db1.style.display = "none";
-  db2.style.display = "none";
+  document.getElementById("deskBreaker1").style.display = "none";
+  document.getElementById("deskBreaker2").style.display = "none";
   logo.style.fontSize = "8px";
-  img1.style.height = "42";
-  img2.style.height = "42";
-  img3.style.height = "42";
+  document.getElementById("img1").height = "20";
+  document.getElementById("img2").height = "20";
+  document.getElementById("img3").height = "20";
+  document.getElementById("icon1").style.padding = "10px";
+  document.getElementById("icon2").style.padding = "10px";
+  document.getElementById("icon3").style.padding = "10px";
 }
 
