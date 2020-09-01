@@ -18,17 +18,39 @@
 ███████╗███████╗██║  ██║███████╗██║ ╚████║██║ ╚████║███████╗██║  ██║
 ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
 </pre>
-      <br style="margin: 16px 0"/>
-      <div class="flexbox">
-        <span class="alignleft">
-          <a href=".."><h1 style="padding:0px;margin:20px;"><-</h1></a>
-        </span>
-        <span class="aligncenter">
-          <h1 style="margin: 0px;">About me</h1>
-        </span>
+      <br id="deskBreaker" style="margin: 16px 0"/>
+      <div id="desktopView">
+        <div class="flexbox" id="topFlexbox">
+          <span class="alignleft">
+            <a href=".."><h1 style="padding:0px;margin:20px;"><-</h1></a>
+          </span>
+          <span class="aligncenter">
+            <h1 style="margin: 0px;">About me</h1>
+          </span>
+        </div>
+        <div class="flexbox" id="bottomFlexbox">
+          <div class="textBlock">
+            <p style="margin-top:0;">Hello, there! I'm Renner, and here are some random facts about me:</p>
+            <div style="margin-left: 7%;">
+              <li>I'm a computer science student at <a href="https://ime.usp.br" target="_blank">IME-USP</a>.</li>
+              <li>I'm also a hobbyist photographer. You can check my work at my <a href="https://instagram.com/lerenner" target="_blank">Instagram Page</a>.</li>
+              <li>Ocasionally, I also like to write, even though I haven't published anything yet.</li>
+            </div>
+          </div>
+          <div class="icon">
+              <img src="pp.jpeg" alt="My Profile Picture" width="150px" id="pp">
+          </div>
+        </div>
       </div>
-      <div class="flexbox">
+      <div id="mobileView" style="display:none;">
+        <a href=".."><h1 style="padding:0px;margin:20px;"><-</h1></a>
+        <h1 style="margin: 0px;">About me</h1>
         <div class="textBlock">
+          <center>
+            <div class="icon">
+                <img src="pp.jpeg" alt="My Profile Picture" width="150px" id="pp2">
+            </div>
+          </center>
           <p style="margin-top:0;">Hello, there! I'm Renner, and here are some random facts about me:</p>
           <div style="margin-left: 7%;">
             <li>I'm a computer science student at <a href="https://ime.usp.br" target="_blank">IME-USP</a>.</li>
@@ -36,11 +58,9 @@
             <li>Ocasionally, I also like to write, even though I haven't published anything yet.</li>
           </div>
         </div>
-        <div class="icon">
-            <img src="pp.jpeg" alt="My Profile Picture" width="150px" id="pp">
-        </div>
       </div>
     </center>
-    <script src="pp.js" charset="utf-8"></script>
+    <br/><br/><br/>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

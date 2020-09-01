@@ -74,7 +74,7 @@ body {
   margin-top: 0px;
 }
 
-#pp {
+#pp,#pp2 {
   border-radius: 50%;
   padding: 0;
   margin: 0;
@@ -93,13 +93,13 @@ html, body {
 .flexbox {
   display: flex;
   align-items: center;
-  width: 52%;
+  width: 960px;
 }
 
 .contactFlexbox {
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 880px;
 }
 
 .icons {
