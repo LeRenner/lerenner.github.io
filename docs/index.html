@@ -11,7 +11,7 @@
     <center>
       <br style="margin: 20px 0"/>
       <br id="deskBreaker"/>
-      <pre id="logo">
+      <pre id="mainLogo">
 ██╗     ███████╗██████╗ ███████╗███╗   ██╗███╗   ██╗███████╗██████╗ 
 ██║     ██╔════╝██╔══██╗██╔════╝████╗  ██║████╗  ██║██╔════╝██╔══██╗
 ██║     █████╗  ██████╔╝█████╗  ██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝
@@ -21,13 +21,13 @@
 </pre>
       <br style="margin: 21px 0"/>
       <div>
-        <p id="whoamiButton">Who Am I</p>
+        <a href="whoami/" class="link">Who Am I</a>
       </div>
       <div>
-        <p id="contactButton">Contact</p>
+        <a href="contact/" class="link">Contact</a>
       </div>
       <div>
-        <p id="miscButton">Misc</p>
+        <a href="misc/" class="link">Misc</a>
       </div><br/>
       <div class="icons">
         <div class="icon" id="icon1">
@@ -40,53 +40,7 @@
           <a href="https://instagram.com/lerenner" target="_BLANK"><img src="icons/iglogo.png" alt="Instagram Logo" height="64" id="img3"></a>
         </div>
       </div>
-      <div id="contactBox" class="modal">
-        <div class="contactContent" id="contactContent">
-          <span class="close">&times;</span>
-          <h2>Contact:</h2>
-          <div style="margin-left: 24px;">
-            <p>Telegram: @LeRenner <span id=copyTelegram>Copy</span> </p>
-            <p>Mail: j@lerenner.dev <span id=copyMail>Copy</span> </p>
-            <p>Discord: LojasRenner#3419 <span id=copyDiscord>Copy</span> </p>
-          </div>
-        </div>
-      </div>
-      <div id="whoamiBox" class="modal">
-        <div class="whoamiContent" id="whoamiContent">
-          <span class="close">&times;</span>
-          <h2 style="margin-bottom: 0px;">About me</h2>
-          <div class="flexbox">
-            <div class="icon" id="description">
-              <p>Hello, there! I'm Renner, and here are some random facts about me:</p>
-              <div style="margin-left: 7%;">
-                <li>I'm a computer science student at <a href="https://ime.usp.br" target="_blank">IME-USP</a>.</li>
-                <li>I'm also a hobbyist photographer. You can check my work at my <a href="https://instagram.com/lerenner" target="_blank">Instagram Page</a>.</li>
-                <li>Ocasionally, I also like to write, even though I haven't published anything yet.</li>
-              </div>
-            </div>
-            <div class="icon">
-                <img src="icons/pp.jpeg" alt="My Profile Picture" width="150px" id="pp">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="miscBox" class="modal">
-        <div class="miscContent" id="miscContent">
-          <span class="close">&times;</span>
-          <h2 style="margin-bottom: 0px;">Misc</h2>
-          <div class="flexbox">
-            <div class=icon>
-              <p>Here are some other things that I do. Feel free to check them out!</p>
-              <div style="margin-left: 7%;">
-                <li>
-                  <a href="https://www.pudim.xyz:1248" target="_blank">Pudim.xyz</a> is home to my selfhosted projects, that includes two minecraft servers, a tor hidden service, and even a simple CTF I created.
-                </li>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </center>
-    <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="resize.js" charset="utf-8"></script>
   </body>
 </html>
