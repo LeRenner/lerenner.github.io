@@ -20,7 +20,7 @@ resize = function() {
     document.getElementById("mobileView").style.display = "none";
     document.getElementById("smallerLogo").style.fontSize = "0.78rem";
     document.getElementById("desktopView").style.display = "block";
-    document.getElementById("deskBreaker").style.display = "block";
+    document.getElementById("deskBreaker").style.display = "inline-block";
     document.body.style.fontSize = "1.42rem";
   }
 }
