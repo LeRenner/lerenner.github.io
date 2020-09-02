@@ -1,4 +1,4 @@
-let currentSize = "b"
+let currentSize = ""
 
 resize = function() {
   if (window.innerWidth <= 699 && currentSize != "s") {
