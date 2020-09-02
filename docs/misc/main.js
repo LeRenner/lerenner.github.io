@@ -1,7 +1,7 @@
-let currentSize = "b"
+let currentSize = ""
 
 resize = function() {
-  if (window.innerWidth <= 699 && currentSize != "s") {
+  if (window.innerWidth <= 980 && currentSize != "s") {
     currentSize = "s"
     document.getElementById("desktopHeader").style.display = "none";
     document.getElementById("mobileHeader").style.display = "block";
@@ -10,9 +10,9 @@ resize = function() {
     document.getElementById("miscFlexbox").style.display = "inline-block";
     document.getElementById("miscFlexbox").style.width = "96%";
     document.getElementById("marginController").style.marginLeft = "12%";
-    console.log("aqui")
+    document.body.style.fontSize = "1.12rem";
   }
-  if (window.innerWidth > 699 && currentSize != "b") {
+  if (window.innerWidth > 980 && currentSize != "b") {
     currentSize = "b"
     document.getElementById("desktopHeader").style.display = "inline-block";
     document.getElementById("mobileHeader").style.display = "none";
@@ -21,6 +21,7 @@ resize = function() {
     document.getElementById("miscFlexbox").style.display = "flex";
     document.getElementById("miscFlexbox").style.width = "960px";
     document.getElementById("marginController").style.marginLeft = "7%";
+    document.body.style.fontSize = "1.42rem";
   }
 }
 

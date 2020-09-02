@@ -13,25 +13,12 @@
   font-weight: 380;
 }
 
+body {
+  font-size: 16px;
+}
+
 center {
   width: 100%;
-}
-
-pre{
-  font-size: 92%;
-  font-weight: normal;
-}
-
-p {
-  font-size: 142%;
-}
-
-h1 {
-  font-size: 200%;
-}
-
-li {
-  font-size: 142%;
 }
 
 body {
@@ -51,7 +38,7 @@ body {
 }
 
 #contactButton,#whoamiButton,#miscButton {
-  font-size: 128%;
+  font-size: 1.28rem;
   text-decoration: underline;
   display: inline-block;
   margin: 10px;
@@ -82,7 +69,7 @@ body {
 }
 
 #smallerLogo {
-  font-size: 78%;
+  font-size: 0.78rem;
 }
 
 html, body {
@@ -134,7 +121,7 @@ html, body {
 
 .link {
   line-height: 2;
-  font-size: 130%;
+  font-size: 1.30em;
 }
 
 .miscContent {
@@ -142,7 +129,7 @@ html, body {
   width: 52%;
   text-align: left;
   color: #ccc;
-  font-size: 142%;
+  font-size: 1.42em;
 }
 
 .alignleft {
