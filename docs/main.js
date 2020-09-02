@@ -4,7 +4,10 @@ resize = function() {
   if (window.innerWidth <= 699 && currentSize != "s") {
     console.log("small!")
     currentSize = "s"
-    document.getElementById("deskBreaker").style.margin = "52px 0";
+    document.getElementById("mobileBreaker1").style.display = "inline-block";
+    document.getElementById("mobileBreaker2").style.display = "inline-block";
+    document.getElementById("mobileBreaker3").style.display = "inline-block";
+    document.getElementById("deskBreaker").style.display = "none";
     document.getElementById("mainLogo").style.fontSize = "8px";
     document.getElementById("img1").height = "54";
     document.getElementById("img2").height = "54";
@@ -16,7 +19,10 @@ resize = function() {
   if (window.innerWidth > 699 && currentSize != "b") {
     console.log("big!")
     currentSize = "b"
-    document.getElementById("deskBreaker").style.margin = "30px 0";
+    document.getElementById("mobileBreaker1").style.display = "none";
+    document.getElementById("mobileBreaker2").style.display = "none";
+    document.getElementById("mobileBreaker3").style.display = "none";
+    document.getElementById("deskBreaker").style.display = "inline-block";
     document.getElementById("mainLogo").style.fontSize = "92%";
     document.getElementById("img1").height = "64";
     document.getElementById("img2").height = "64";
