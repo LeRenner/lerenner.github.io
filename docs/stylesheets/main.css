@@ -91,3 +91,16 @@ body {
 		width:300px;
 	}
 }
+
+@media (hover: none) {
+	#copyMail,#copyTelegram,#copyDiscord{
+	  text-decoration: none;
+	}
+	#copyMail:hover,#copyTelegram:hover,#copyDiscord:hover{
+	  color: white;
+	  cursor: pointer;
+	}
+	.miniText {
+		display: none;
+	}
+}
