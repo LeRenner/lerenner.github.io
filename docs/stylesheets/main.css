@@ -103,4 +103,7 @@ body {
 	.miniText {
 		display: none;
 	}
+	#contact {
+		margin-bottom: 20px;
+	}
 }
