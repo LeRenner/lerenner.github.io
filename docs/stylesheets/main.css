@@ -44,6 +44,10 @@ body {
   border-radius: 50%;
 }
 
+.contactDiv {
+	width:340px;
+}
+
 .miniText {
 	margin: 0;
 	font-size: 70%;
@@ -79,14 +83,11 @@ body {
 	line-height: 52%;
 }
 
-@media screen and (max-width: 699px) {
-	#mainLogo {
-		font-size: 8px;
+@media screen and (max-width: 400px) {
+	body {
+		font-size: 100%;
 	}
-	#img1,#img2,#img3 {
-		height: 54;
-	}
-	#icon1,#icon2,#icon3 {
-		padding: 10px;
+	.contactDiv {
+		width:300px;
 	}
 }
