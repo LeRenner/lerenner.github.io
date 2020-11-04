@@ -39,6 +39,11 @@ body {
 	margin-bottom: 10px;
 }
 
+#pp {
+  height: 140px;
+  border-radius: 50%;
+}
+
 .miniText {
 	margin: 0;
 	font-size: 70%;
@@ -67,7 +72,7 @@ body {
 
 .tinyTitle {
 	font-size:130%;
-	color: #6895ba;
+	color: #4c8dd9;
 }
 
 .aboutLine {
