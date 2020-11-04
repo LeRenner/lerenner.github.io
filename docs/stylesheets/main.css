@@ -26,6 +26,26 @@ body {
 	font-size: 120%;
 }
 
+#copyMail,#copyTelegram,#copyDiscord{
+  text-decoration: underline;
+}
+
+#copyMail:hover,#copyTelegram:hover,#copyDiscord:hover{
+  color: #aaa;
+  cursor: pointer;
+}
+
+#contact {
+	margin-bottom: 10px;
+}
+
+.miniText {
+	margin: 0;
+	font-size: 70%;
+	color: #888;
+	margin-bottom: 24px;
+}
+
 .username {
 	float: right;
 }
