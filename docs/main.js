@@ -11,7 +11,7 @@ copyMail.onclick = function() {
 copyTelegram.onclick = function() {
   var copy = navigator.clipboard.writeText("LeRenner");
   copyTelegram.innerHTML = "Copied!";
-  setTimeout(function(){copyTelegram.innerHTML = "LeRenner"}, 320);
+  setTimeout(function(){copyTelegram.innerHTML = "@lerenner"}, 320);
 }
 
 copyDiscord.onclick = function() {
