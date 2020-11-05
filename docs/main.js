@@ -54,4 +54,4 @@ function typeWriter() {
   }
 }
 
-typeWriter()
+setTimeout(typeWriter,2000);
