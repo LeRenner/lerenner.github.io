@@ -26,11 +26,11 @@ body {
 	font-size: 120%;
 }
 
-#copyMail,#copyTelegram,#copyDiscord{
+#copyMailDev,#copyMailUSP,#copyMailPw,#copyTelegram,#copyDiscord{
   text-decoration: underline;
 }
 
-#copyMail:hover,#copyTelegram:hover,#copyDiscord:hover{
+#copyMailDev:hover,#copyMailUSP:hover,#copyMailPw:hover,#copyTelegram:hover,#copyDiscord:hover{
   color: #aaa;
   cursor: pointer;
 }

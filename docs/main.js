@@ -1,11 +1,27 @@
-var copyMail = document.getElementById("copyMail");
+var copyMailDev = document.getElementById("copyMailDev");
+var copyMailPw = document.getElementById("copyMailPw");
+var copyMailUSP = document.getElementById("copyMailUSP");
 var copyTelegram = document.getElementById("copyTelegram");
 var copyDiscord = document.getElementById("copyDiscord");
 
-copyMail.onclick = function() {
+copyMailDev.onclick = function() {
+	console.log("HA")
   var copy = navigator.clipboard.writeText("j@lerenner.dev");
-  copyMail.innerHTML = "Copied!";
-  setTimeout(function(){copyMail.innerHTML = "j@lerenner.dev";}, 320);
+  copyMailDev.innerHTML = "Copied!";
+  setTimeout(function(){copyMailDev.innerHTML = "j@lerenner.dev";}, 320);
+}
+
+copyMailPw.onclick = function() {
+  var copy = navigator.clipboard.writeText("j@renner.pw");
+  copyMailPw.innerHTML = "Copied!";
+  setTimeout(function(){copyMailPw.innerHTML = "j@renner.pw";}, 320);
+}
+
+copyMailUSP.onclick = function() {
+	console.log("HA")
+  var copy = navigator.clipboard.writeText("renner@usp.br");
+  copyMailUSP.innerHTML = "Copied!";
+  setTimeout(function(){copyMailUSP.innerHTML = "renner@usp.br";}, 320);
 }
 
 copyTelegram.onclick = function() {
@@ -43,7 +59,6 @@ function typeWriter() {
 			tempText += txt.charAt(i);
 			title.innerHTML = tempText + "█"
 		}
-		console.log(title.innerHTML.length)
     i++;
 		var speed = 240*Math.random()
 		if (end) {
