@@ -26,10 +26,6 @@ body {
 	font-size: 120%;
 }
 
-h1 {
-	padding: 20px;
-}
-
 #copyMail,#copyTelegram,#copyDiscord{
   text-decoration: underline;
 }
@@ -46,6 +42,11 @@ h1 {
 #pp {
   height: 140px;
   border-radius: 50%;
+}
+
+#title {
+	padding: 20px;
+	color: #11d116;
 }
 
 .contactDiv {
@@ -68,12 +69,6 @@ h1 {
 	line-height: 52%;
 }
 
-.title {
-	padding: 1em;
-	background-color: #2b7226;
-	padding: 0px 5px;
-}
-
 .tinyTitle {
 	font-size:130%;
 	color: #4c8dd9;
@@ -81,6 +76,26 @@ h1 {
 
 .aboutLine {
 	line-height: 52%;
+}
+
+.blinking {
+    width: 50px;
+    height: 100px;
+    background-color: #11d116;
+    -webkit-animation: blinking 1s infinite;
+    animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: transparent;
+    }
+    49% {
+        background-color: transparent
+    }
+    50% {
+        background-color: #11d116;
+    }
 }
 
 @media screen and (max-width: 400px) {
