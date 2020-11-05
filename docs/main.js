@@ -45,7 +45,7 @@ function typeWriter() {
 		}
 		console.log(title.innerHTML.length)
     i++;
-		var speed = 180*Math.random()
+		var speed = 240*Math.random()
 		if (end) {
 			title.innerHTML = tempText += "<span class=\"blinking\">⠀</span> "
 			return
