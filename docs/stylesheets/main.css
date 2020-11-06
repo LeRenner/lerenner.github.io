@@ -108,10 +108,10 @@ body {
 }
 
 @media (hover: none) {
-	#copyMail,#copyTelegram,#copyDiscord{
+	#copyMailDev,#copyMailPw,#copyMailUSP,#copyTelegram,#copyDiscord{
 	  text-decoration: none;
 	}
-	#copyMail:hover,#copyTelegram:hover,#copyDiscord:hover{
+	#copyMailDev:hover,#copyMailPw:hover,#copyMailUSP:hover#copyTelegram:hover,#copyDiscord:hover{
 	  color: white;
 	  cursor: pointer;
 	}
