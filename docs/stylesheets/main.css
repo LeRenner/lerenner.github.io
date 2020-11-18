@@ -22,6 +22,11 @@ li {
 	margin: 5px 0px;
 }
 
+hr {
+	width: 450px;
+	border-color: #000;
+}
+
 body {
   background-color: #181A1B;
   display: flex;
@@ -41,7 +46,7 @@ body {
 }
 
 #contact {
-	margin-bottom: 10px;
+	margin-bottom: 16px;
 }
 
 #pp {
@@ -51,7 +56,13 @@ body {
 
 #title {
 	padding: 20px;
-	color: #11d116;
+	color: #17bf47;
+}
+
+#index {
+	font-size: 142%;
+	margin-bottom: 20px;
+	color: #17bf47;
 }
 
 .contactDiv {
@@ -116,7 +127,7 @@ body {
 .blinking {
     width: 50px;
     height: 100px;
-    background-color: #11d116;
+    background-color: #17bf47;
     -webkit-animation: blinking 1s infinite;
     animation: blinking 1s infinite;
 }
@@ -129,7 +140,7 @@ body {
         background-color: transparent
     }
     50% {
-        background-color: #11d116;
+        background-color: #17bf47;
     }
 }
 
