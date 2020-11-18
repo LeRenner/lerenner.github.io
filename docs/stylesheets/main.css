@@ -22,9 +22,14 @@ li {
 	margin: 5px 0px;
 }
 
-hr {
-	width: 450px;
-	border-color: #000;
+hr { display: block;
+  width: 450px;
+  height: 2px;
+  border: 0;
+  border-top:
+  1px solid #aaa;
+  margin: 1em 0;
+  padding: 0;
 }
 
 body {
@@ -144,9 +149,9 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 489px) {
 	body {
-		font-size: 100%;
+		font-size: 96%;
 	}
 	.contactDiv {
 		width:300px;
