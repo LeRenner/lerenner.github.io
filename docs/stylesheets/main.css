@@ -153,6 +153,15 @@ body {
 	body {
 		font-size: 96%;
 	}
+	hr {
+		width: 340px;
+	}
+	h1 {
+		font-size: 180%;
+	}
+	#title {
+		padding: 36px 0px;
+	}
 	.contactDiv {
 		width:300px;
 	}
