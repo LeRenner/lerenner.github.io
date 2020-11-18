@@ -137,6 +137,10 @@ body {
     animation: blinking 1s infinite;
 }
 
+.footer {
+	margin: 10px;
+}
+
 @keyframes blinking {
     0% {
         background-color: transparent;
