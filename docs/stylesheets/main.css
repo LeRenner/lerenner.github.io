@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Cascadia Code PL';
-    src: url('CascadiaCodePL.woff2') format('woff2'),
+    src: url('CascadiaCodePL.ttf') format('truetype'),
         url('CascadiaCodePL.woff') format('woff'),
-        url('CascadiaCodePL.ttf') format('truetype');
+				url('CascadiaCodePL.woff2') format('woff2');
     font-style: normal;
     font-display: block;
 }
