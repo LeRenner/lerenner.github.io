@@ -61,13 +61,13 @@ body {
 
 #title {
 	padding: 20px;
-	color: #17bf47;
+	color: #36bf16;
 }
 
 #index {
 	font-size: 142%;
 	margin-bottom: 20px;
-	color: #17bf47;
+	color: #36bf16;
 }
 
 .contactDiv {
@@ -132,7 +132,7 @@ body {
 .blinking {
     width: 50px;
     height: 100px;
-    background-color: #17bf47;
+    background-color: #36bf16;
     -webkit-animation: blinking 1s infinite;
     animation: blinking 1s infinite;
 }
@@ -149,7 +149,7 @@ body {
         background-color: transparent
     }
     50% {
-        background-color: #17bf47;
+        background-color: #36bf16;
     }
 }
 
