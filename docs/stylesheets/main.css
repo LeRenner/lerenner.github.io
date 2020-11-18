@@ -14,7 +14,12 @@
 }
 
 center {
-  width: 536px;
+  width: 100%;
+}
+
+li {
+	list-style-type: none;
+	margin: 5px 0px;
 }
 
 body {
@@ -26,11 +31,11 @@ body {
 	font-size: 120%;
 }
 
-#copyMailDev,#copyMailUSP,#copyMailPw,#copyTelegram,#copyDiscord{
+#copyMailDev,#copyMailPw,#copyTelegram,#copyDiscord{
   text-decoration: underline;
 }
 
-#copyMailDev:hover,#copyMailUSP:hover,#copyMailPw:hover,#copyTelegram:hover,#copyDiscord:hover{
+#copyMailDev:hover,#copyMailPw:hover,#copyTelegram:hover,#copyDiscord:hover{
   color: #aaa;
   cursor: pointer;
 }
@@ -50,32 +55,62 @@ body {
 }
 
 .contactDiv {
-	width:340px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contactDiv > div {
+  flex-grow: 1;
+}
+
+.flex {
+	display: flex;
 }
 
 .miniText {
 	margin: 0;
 	font-size: 70%;
 	color: #888;
-	margin-bottom: 24px;
+	margin-bottom: 18px;
 }
 
-.username {
-	float: right;
+.accounts {
+	margin: 0;
+  margin-left: auto;
+  text-align: left;
+	padding: 0px 20px;
+}
+
+.usernames {
+	margin: 0;
+  margin-right: auto;
+  text-align: right;
+	padding: 0px 20px;
+}
+
+.LeUsername {
+	text-align: right;
+}
+
+.accounts > li, .usernames > li {
+  font-size: 1em;
 }
 
 .usernameLine {
 	text-align: left;
-	line-height: 52%;
+	margin: 5px;
 }
 
 .tinyTitle {
 	font-size:130%;
-	color: #4c8dd9;
+	color: #3391ff;
 }
 
 .aboutLine {
-	line-height: 52%;
+	margin: 10px 0px;
 }
 
 .blinking {
@@ -108,10 +143,10 @@ body {
 }
 
 @media (hover: none) {
-	#copyMailDev,#copyMailPw,#copyMailUSP,#copyTelegram,#copyDiscord{
+	#copyMailDev,#copyMailPw,#copyTelegram,#copyDiscord{
 	  text-decoration: none;
 	}
-	#copyMailDev:hover,#copyMailPw:hover,#copyMailUSP:hover#copyTelegram:hover,#copyDiscord:hover{
+	#copyMailDev:hover,#copyMailPw:hover,#copyTelegram:hover,#copyDiscord:hover{
 	  color: white;
 	  cursor: pointer;
 	}

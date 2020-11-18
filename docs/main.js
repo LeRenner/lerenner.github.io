@@ -1,38 +1,33 @@
 var copyMailDev = document.getElementById("copyMailDev");
 var copyMailPw = document.getElementById("copyMailPw");
-var copyMailUSP = document.getElementById("copyMailUSP");
 var copyTelegram = document.getElementById("copyTelegram");
 var copyDiscord = document.getElementById("copyDiscord");
 
 copyMailDev.onclick = function() {
-	console.log("HA")
   var copy = navigator.clipboard.writeText("j@lerenner.dev");
-  copyMailDev.innerHTML = "Copied!";
+	copyMailDev.style.textDecoration = "none";
+  copyMailDev.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
   setTimeout(function(){copyMailDev.innerHTML = "j@lerenner.dev";}, 320);
 }
 
 copyMailPw.onclick = function() {
   var copy = navigator.clipboard.writeText("j@renner.pw");
-  copyMailPw.innerHTML = "Copied!";
+	copyMailPw.style.textDecoration = "none";
+  copyMailPw.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
   setTimeout(function(){copyMailPw.innerHTML = "j@renner.pw";}, 320);
-}
-
-copyMailUSP.onclick = function() {
-	console.log("HA")
-  var copy = navigator.clipboard.writeText("renner@usp.br");
-  copyMailUSP.innerHTML = "Copied!";
-  setTimeout(function(){copyMailUSP.innerHTML = "renner@usp.br";}, 320);
 }
 
 copyTelegram.onclick = function() {
   var copy = navigator.clipboard.writeText("LeRenner");
-  copyTelegram.innerHTML = "Copied!";
+	copyTelegram.style.textDecoration = "none";
+  copyTelegram.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
   setTimeout(function(){copyTelegram.innerHTML = "@lerenner"}, 320);
 }
 
 copyDiscord.onclick = function() {
   var copy = navigator.clipboard.writeText("LojasRenner#3419");
-  copyDiscord.innerHTML = "Copied!";
+	copyDiscord.style.textDecoration = "none";
+  copyDiscord.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
   setTimeout(function(){copyDiscord.innerHTML = "LojasRenner#3419"}, 320);
 }
 
@@ -70,3 +65,5 @@ function typeWriter() {
 }
 
 setTimeout(typeWriter,2000);
+
+//color: #17bf52;
