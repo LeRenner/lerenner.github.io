@@ -78,4 +78,12 @@ function typeWriter() {
 
 setTimeout(typeWriter,2000);
 
-//color: #17bf52;
+function supportsPlant () {
+  var ctx = document.createElement("canvas").getContext("2d");
+  ctx.fillText("🪴", -2, 4);
+  return ctx.getImageData(0, 0, 1, 1).data[3] > 0;
+}
+
+if ( ! supportsPlant() ) {
+	document.getElementById("plant").innerHTML = "🌿";
+}
