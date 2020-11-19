@@ -85,5 +85,5 @@ function supportsPlant () {
 }
 
 if ( ! supportsPlant() ) {
-	document.getElementById("plant").innerHTML = "🌿";
+	document.getElementById("plant").innerHTML = "<a href=\"https://youtu.be/dQw4w9WgXcQ\" target=\"_blank\" style=\"text-decoration:none;\">🌿</a>";
 }
