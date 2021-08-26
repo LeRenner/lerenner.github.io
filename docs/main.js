@@ -1,35 +1,24 @@
+/* =-=-=-=-=-= Copy contacts =-=-=-=-=-= */
+
 var copyMailDev = document.getElementById("copyMailDev");
-var copyMailPw = document.getElementById("copyMailPw");
 var copyTelegram = document.getElementById("copyTelegram");
 var copyDiscord = document.getElementById("copyDiscord");
 
 copyMailDev.onclick = function() {
   var copy = navigator.clipboard.writeText("j@lerenner.dev");
 	copyMailDev.style.textDecoration = "none";
-  copyMailDev.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
-  setTimeout(function(){
-		copyMailDev.innerHTML = "j@lerenner.dev";
-		copyMailDev.style.textDecoration = "underline";
-	}, 320);
-}
-
-copyMailPw.onclick = function() {
-  var copy = navigator.clipboard.writeText("j@renner.pw");
-	copyMailPw.style.textDecoration = "none";
-  copyMailPw.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
-  setTimeout(function(){
-		copyMailPw.innerHTML = "j@renner.pw";
-		copyMailPw.style.textDecoration = "underline";
+  copyMailDev.innerHTML = "<pre style='margin:0;color: #aaa;'>          Copied!</pre>";
+  setTimeout( function(){
+		copyMailDev.innerHTML = "j[at]lerenner.dev";
 	}, 320);
 }
 
 copyTelegram.onclick = function() {
   var copy = navigator.clipboard.writeText("LeRenner");
 	copyTelegram.style.textDecoration = "none";
-  copyTelegram.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
-  setTimeout(function(){
+  copyTelegram.innerHTML = "<pre style='margin:0;color: #aaa;'> Copied!</pre>";
+  setTimeout( function(){
 		copyTelegram.innerHTML = "@lerenner";
-		copyTelegram.style.textDecoration = "underline";
 	}, 320);
 }
 
@@ -37,13 +26,12 @@ copyDiscord.onclick = function() {
   var copy = navigator.clipboard.writeText("LojasRenner#3419");
 	copyDiscord.style.textDecoration = "none";
   copyDiscord.innerHTML = "<pre style='margin:0;color: #aaa;'>         Copied!</pre>";
-  setTimeout(function(){
+  setTimeout( function(){
 		copyDiscord.innerHTML = "LojasRenner#3419";
-		copyDiscord.style.textDecoration = "underline";
 	}, 320);
 }
 
-//animation
+/* =-=-=-=-=-= Cool animation =-=-=-=-=-= */
 
 var i = 0;
 var txt = '#include renner.h';
@@ -78,6 +66,8 @@ function typeWriter() {
 
 setTimeout(typeWriter,2000);
 
+/* =-=-=-=-=-= Misc =-=-=-=-=-= */
+
 function supportsPlant () {
   var ctx = document.createElement("canvas").getContext("2d");
   ctx.fillText("🪴", -2, 4);
@@ -85,5 +75,5 @@ function supportsPlant () {
 }
 
 if ( ! supportsPlant() ) {
-	document.getElementById("plant").innerHTML = "<a href=\"https://youtu.be/dQw4w9WgXcQ\" target=\"_blank\" style=\"text-decoration:none;\">🌿</a>";
+	document.getElementById("plant").innerHTML = '<a href="https://www.youtube.com/watch?v=a3Z7zEc7AXQ" style="text-decoration:none;">🌿</a>';
 }

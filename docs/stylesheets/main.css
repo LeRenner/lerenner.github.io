@@ -41,11 +41,7 @@ body {
 	font-size: 120%;
 }
 
-#copyMailDev,#copyMailPw,#copyTelegram,#copyDiscord{
-  text-decoration: underline;
-}
-
-#copyMailDev:hover,#copyMailPw:hover,#copyTelegram:hover,#copyDiscord:hover{
+#copyMailDev:hover,#copyTelegram:hover,#copyDiscord:hover{
   color: #aaa;
   cursor: pointer;
 }
@@ -172,10 +168,7 @@ body {
 }
 
 @media (hover: none) {
-	#copyMailDev,#copyMailPw,#copyTelegram,#copyDiscord{
-	  text-decoration: none;
-	}
-	#copyMailDev:hover,#copyMailPw:hover,#copyTelegram:hover,#copyDiscord:hover{
+	#copyMailDev:hover,#copyTelegram:hover,#copyDiscord:hover{
 	  color: white;
 	  cursor: pointer;
 	}
