@@ -1,0 +1,165 @@
+@font-face {
+	font-family: 'Cascadia Code PL';
+	src: url('CascadiaCodePL.ttf') format('truetype'),
+	url('CascadiaCodePL.woff') format('woff'),
+	url('CascadiaCodePL.woff2') format('woff2');
+	font-style: normal;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'commissioner';
+	src: url('Commissioner-VariableFont_wght.ttf') format('truetype');
+	font-style: normal;
+	font-display: block;
+}
+
+* {
+	font-family: 'commissioner';
+	color: white;
+	font-weight: 380;
+	font-size: 105%;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+center {
+	width: 100%;
+}
+
+body {
+	background-color: #181A1B;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-size: 120%;
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+hr {
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid #aaa;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= Main Classes =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* =-=-=-=-=-=-= Whole Page =-=-=-=-=-=-= */
+
+.commissioner {
+	font-family: "commissioner";
+	font-size: 130%;
+}
+.cascadia {
+	font-family: "Cascadia Code PL";
+}
+
+/* =-=-=-=-=-=-= Header =-=-=-=-=-=-= */
+
+.header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #202020;
+	text-decoration: none;
+}
+.headerLink {
+	text-decoration: none;
+}
+.headerContents {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 150%;
+}
+
+/* =-=-=-=-=-=-= Content =-=-=-=-=-=-= */
+
+.mainContent {
+	width: 52%;
+}
+
+.subTitle {
+	font-size: 172%;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.subTitleHR {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.title {
+	color: #36bf16;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-size: 240%;
+}
+
+/* =-=-=-=-=-=-= YouTube =-=-=-=-=-=-= */
+
+.youtube {
+	margin-left: 30px;
+}
+.item {
+	font-size: 130%;
+	margin-bottom: 20px;
+}
+.itemDescription {
+	margin-top: 0px;
+	margin-left: 48px;
+	margin-bottom: 60px;
+}
+
+/* =-=-=-=-=-= Colors =-=-=-=-=-= */
+
+mark {
+	background: none;
+}
+
+.green {
+	color: #36bf16;
+	margin: 0;
+	padding: 0;
+
+}
+
+.red {
+	color: #e06c75;
+	margin: 0;
+	padding: 0;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-= Responsive Design =-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+@media screen and (min-width: 1300px) {
+	.mainContent {
+		width: 1200px;
+	}
+}
+
+@media screen and (max-width: 1300px)  {
+	.mainContent {
+		width: 90%;
+	}
+	.title {
+		margin-top: 60px;
+		margin-bottom: 15px;
+		font-size: 280%;
+	}
+	body {
+		font-size: 100%;
+	}
+}
