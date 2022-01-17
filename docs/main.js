@@ -9,7 +9,7 @@ copyMailDev.onclick = function() {
 	copyMailDev.style.textDecoration = "none";
   copyMailDev.innerHTML = "<pre style='margin:0;color: #aaa;'>          Copied!</pre>";
   setTimeout( function(){
-		copyMailDev.innerHTML = "j[at]lerenner.dev";
+		copyMailDev.innerHTML = "j@lerenner.dev";
 	}, 320);
 }
 
