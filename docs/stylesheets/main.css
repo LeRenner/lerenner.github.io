@@ -8,13 +8,9 @@
 }
 
 * {
-  font-family: 'Cascadia Code PL';
-  color: white;
-  font-weight: 380;
-}
-
-center {
-  width: 100%;
+	font-family: 'Cascadia Code PL';
+	color: white;
+	font-weight: 380;
 }
 
 li {
@@ -23,27 +19,27 @@ li {
 }
 
 hr { display: block;
-  width: 450px;
-  height: 2px;
-  border: 0;
-  border-top:
-  1px solid #aaa;
-  margin: 1em 0;
-  padding: 0;
+	width: 450px;
+	height: 2px;
+	border: 0;
+	border-top:
+	1px solid #aaa;
+	margin: 1em 0;
+	padding: 0;
 }
 
 body {
-  background-color: #181A1B;
-  display: flex;
-  justify-content: center;
+	background-color: #181A1B;
+	display: flex;
+	justify-content: center;
 	height: 100%;
 	margin: 0;
 	font-size: 120%;
 }
 
 #copyMailDev:hover,#copyTelegram:hover,#copyDiscord:hover{
-  color: #aaa;
-  cursor: pointer;
+	color: #aaa;
+	cursor: pointer;
 }
 
 #contact {
@@ -51,8 +47,8 @@ body {
 }
 
 #pp {
-  height: 140px;
-  border-radius: 50%;
+	height: 140px;
+	border-radius: 50%;
 }
 
 #title {
@@ -75,7 +71,7 @@ body {
 }
 
 .contactDiv > div {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 .flex {
@@ -91,15 +87,15 @@ body {
 
 .accounts {
 	margin: 0;
-  margin-left: auto;
-  text-align: left;
+	margin-left: auto;
+	text-align: left;
 	padding: 0px 20px;
 }
 
 .usernames {
 	margin: 0;
-  margin-right: auto;
-  text-align: right;
+	margin-right: auto;
+	text-align: right;
 	padding: 0px 20px;
 }
 
@@ -108,7 +104,7 @@ body {
 }
 
 .accounts > li, .usernames > li {
-  font-size: 1em;
+	font-size: 1em;
 }
 
 .usernameLine {
