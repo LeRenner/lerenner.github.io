@@ -70,14 +70,6 @@ body {
 	color: #36bf16;
 }
 
-#footerTop {
-	margin-top: 30px;
-}
-
-#footerBottom {
-	margin-bottom: 60px;
-}
-
 
 /* ########################################################## */
 /* ####################### Classes ########################## */
@@ -161,8 +153,17 @@ body {
     animation: blinking 1s infinite;
 }
 
-.footer {
-	margin: 10px;
+.footerTop {
+	margin-top: 30px;
+}
+
+.footerMiddle {
+	margin: 0px;
+}
+
+.footerBottom {
+	margin-bottom: 60px;
+	margin-top: 30px;
 }
 
 .break {
