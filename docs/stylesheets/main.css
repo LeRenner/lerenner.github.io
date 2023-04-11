@@ -154,7 +154,8 @@ body {
 }
 
 .footerTop {
-	margin-top: 30px;
+	margin-top: 25px;
+	margin-bottom: 15px;
 }
 
 .footerMiddle {
@@ -163,7 +164,7 @@ body {
 
 .footerBottom {
 	margin-bottom: 60px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .break {
