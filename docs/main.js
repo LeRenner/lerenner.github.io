@@ -1,15 +1,25 @@
 /* =-=-=-=-=-= Copy contacts =-=-=-=-=-= */
 
 var copyMailDev = document.getElementById("copyMailDev");
+var copyTelegram = document.getElementById("copyTelegram");
 
 copyMailDev.onclick = function() {
   var copy = navigator.clipboard.writeText("j@lerenner.dev");
 	copyMailDev.style.textDecoration = "none";
-  copyMailDev.innerHTML = "<pre style='margin:0;color: #aaa;'>          Copied!</pre>";
+  copyMailDev.innerHTML = "<pre style='margin:0;color: #aaa;'>       Copied!</pre>";
   setTimeout( function(){
 		copyMailDev.innerHTML = "j@lerenner.dev";
 	}, 320);
 }
+
+copyTelegram.onclick = function() {
+	var copy = navigator.clipboard.writeText("LeRenner");
+	  copyTelegram.style.textDecoration = "none";
+	copyTelegram.innerHTML = "<pre style='margin:0;color: #aaa;'>       Copied!</pre>";
+	setTimeout( function(){
+		  copyTelegram.innerHTML = "@LeRrenner";
+	  }, 320);
+  }
 
 /* =-=-=-=-=-= Cool animation =-=-=-=-=-= */
 
