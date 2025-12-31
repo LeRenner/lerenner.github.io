@@ -60,14 +60,14 @@ body {
 
 #title {
 	padding: 20px;
-	color: #36bf16;
+	color: #36cf4d;
 }
 
 #index {
 	font-size: 142%;
 	margin-top: 35px;
 	margin-bottom: 0px;
-	color: #36bf16;
+	color: #36cf4d;
 }
 
 
@@ -148,7 +148,7 @@ body {
 .blinking {
     width: 50px;
     height: 100px;
-    background-color: #36bf16;
+    background-color: #36cf4d;
     -webkit-animation: blinking 1s infinite;
     animation: blinking 1s infinite;
 }
@@ -188,13 +188,13 @@ body {
         background-color: transparent
     }
     50% {
-        background-color: #36bf16;
+        background-color: #36cf4d;
     }
 }
 
 @media screen and (max-width: 489px) {
 	body {
-		font-size: 96%;
+		font-size: 100%;
 	}
 	hr {
 		width: 340px;
@@ -206,7 +206,7 @@ body {
 		padding: 36px 0px;
 	}
 	.contactDiv {
-		width:300px;
+		width:360px;
 	}
 }
 
