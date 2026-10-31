@@ -59,17 +59,22 @@ body {
 }
 
 #title {
+	font-size: 170%;
 	padding: 20px;
-	color: #36cf4d;
+	color: #eee;
+	min-height: 1.2em;
 }
 
 #index {
-	font-size: 142%;
+	font-size: 152%;
 	margin-top: 35px;
 	margin-bottom: 0px;
-	color: #36cf4d;
+	color: #3391ff;
 }
 
+#typed {
+    white-space: pre-wrap;
+}
 
 /* ########################################################## */
 /* ####################### Classes ########################## */
@@ -134,7 +139,7 @@ body {
 
 .tinyTitle {
 	font-size:130%;
-	color: #3391ff;
+	color: #eee;
 	margin-top: 30px;
 }
 
@@ -148,9 +153,8 @@ body {
 .blinking {
     width: 50px;
     height: 100px;
-    background-color: #36cf4d;
+    background-color: #eee;
     -webkit-animation: blinking 1s infinite;
-    animation: blinking 1s infinite;
 }
 
 .footerTop {
@@ -177,19 +181,26 @@ body {
 	margin-bottom: 0px;
 }
 
+.blinking {
+    width: 50px;
+    height: 100px;
+    background-color: #eee;
+    -webkit-animation: blinking 1s infinite;
+}
+
+.cursor {
+    visibility: visible;
+}
+
+.cursor.blinking {
+    animation: blink 1s step-end infinite;
+}
+
 /* ########################################################## */
 /* ############# Animations and responsivity ################ */
 
-@keyframes blinking {
-    0% {
-        background-color: transparent;
-    }
-    49% {
-        background-color: transparent
-    }
-    50% {
-        background-color: #36cf4d;
-    }
+@keyframes blink {
+    50% { opacity: 0; }
 }
 
 @media screen and (max-width: 489px) {
