@@ -40,6 +40,21 @@ body {
 	font-size: 120%;
 }
 
+body {
+    background-color: #121414;
+    background-image:
+        linear-gradient(#ffffff08 1px, transparent 1px),
+        linear-gradient(90deg, #ffffff08 1px, transparent 1px),
+        linear-gradient(#ffffff0a 1px, transparent 1px),
+        linear-gradient(90deg, #ffffff0a 1px, transparent 1px);
+
+    background-size:
+        20px 20px,
+        20px 20px,
+        100px 100px,
+        100px 100px;
+}
+
 
 /* ########################################################## */
 /* ########################## IDs ########################### */
@@ -54,12 +69,12 @@ body {
 }
 
 #pp {
-	height: 140px;
-	border-radius: 50%;
+	height: 220px;
+	border-radius: 5%;
 }
 
 #title {
-	font-size: 170%;
+	font-size: 180%;
 	padding: 20px;
 	color: #eee;
 	min-height: 1.2em;
@@ -203,7 +218,7 @@ body {
     50% { opacity: 0; }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
 	body {
 		font-size: 100%;
 	}
@@ -215,7 +230,7 @@ body {
 	}
 	#title {
 		padding: 36px 0px;
-		font-size: 150%;
+		font-size: 130%;
 	}
 	.contactDiv {
 		width:360px;
