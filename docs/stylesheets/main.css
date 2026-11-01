@@ -203,7 +203,7 @@ body {
     50% { opacity: 0; }
 }
 
-@media screen and (max-width: 489px) {
+@media screen and (max-width: 550px) {
 	body {
 		font-size: 100%;
 	}
@@ -211,10 +211,11 @@ body {
 		width: 340px;
 	}
 	h1 {
-		font-size: 180%;
+		font-size: 160%;
 	}
 	#title {
 		padding: 36px 0px;
+		font-size: 150%;
 	}
 	.contactDiv {
 		width:360px;
