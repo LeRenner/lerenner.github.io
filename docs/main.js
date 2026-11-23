@@ -39,6 +39,7 @@ var texts = [
 	"PY2PET calling CQ CQ CQ",
 	"---BEGIN PRIVATE KEY--- \n4\n---END PRIVATE KEY---",
 	"curl -s\nhttps://lerenner.dev/i.sh\n| sh -",
+    'I heard this story about a fish. He swims up to this older fish and says, \n"I\'m trying to find this thing they call the ocean." \n"The ocean?" \nsays the older fish. \n"That\'s what you\'re in right now." \n"This?" \nsays the young fish. \n"This is water. \nWhat I want is the ocean."'
 ];
 
 function wrapText(text, maxLength = 29) {
